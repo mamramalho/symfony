@@ -1,0 +1,14 @@
+[19-Feb-2023 08:56:55 Europe/Lisbon] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Missing = in the environment variable declaration in "/var/www/app/.env" at line 3.
+...etup=false\nframework:\n  secret: null...
+                       ^ line 3 offset 153 in /var/www/app/vendor/symfony/dotenv/Dotenv.php:545
+Stack trace:
+#0 /var/www/app/vendor/symfony/dotenv/Dotenv.php(287): Symfony\Component\Dotenv\Dotenv->createFormatException('Missing = in th...')
+#1 /var/www/app/vendor/symfony/dotenv/Dotenv.php(243): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /var/www/app/vendor/symfony/dotenv/Dotenv.php(555): Symfony\Component\Dotenv\Dotenv->parse('DATABASE_URL="m...', '/var/www/app/.e...')
+#3 /var/www/app/vendor/symfony/dotenv/Dotenv.php(105): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /var/www/app/vendor/symfony/dotenv/Dotenv.php(148): Symfony\Component\Dotenv\Dotenv->loadEnv('/var/www/app/.e...', 'APP_ENV', 'dev', Array, false)
+#5 /var/www/app/vendor/symfony/runtime/SymfonyRuntime.php(107): Symfony\Component\Dotenv\Dotenv->bootEnv('/var/www/app/.e...', 'dev', Array, false)
+#6 /var/www/app/vendor/autoload_runtime.php(16): Symfony\Component\Runtime\SymfonyRuntime->__construct(Array)
+#7 /var/www/app/public/index.php(5): require_once('/var/www/app/ve...')
+#8 {main}
+  thrown in /var/www/app/vendor/symfony/dotenv/Dotenv.php on line 545

@@ -1,0 +1,37 @@
+[19-Feb-2023 08:13:03 Europe/Lisbon] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "/var/www/app/.env" environment file. in /var/www/app/vendor/symfony/dotenv/Dotenv.php:552
+Stack trace:
+#0 /var/www/app/vendor/symfony/dotenv/Dotenv.php(105): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 /var/www/app/vendor/symfony/dotenv/Dotenv.php(148): Symfony\Component\Dotenv\Dotenv->loadEnv('/var/www/app/.e...', 'APP_ENV', 'dev', Array, false)
+#2 /var/www/app/vendor/symfony/runtime/SymfonyRuntime.php(107): Symfony\Component\Dotenv\Dotenv->bootEnv('/var/www/app/.e...', 'dev', Array, false)
+#3 /var/www/app/vendor/autoload_runtime.php(16): Symfony\Component\Runtime\SymfonyRuntime->__construct(Array)
+#4 /var/www/app/bin/console(11): require_once('/var/www/app/ve...')
+#5 {main}
+  thrown in /var/www/app/vendor/symfony/dotenv/Dotenv.php on line 552
+[19-Feb-2023 08:14:08 Europe/Lisbon] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "/var/www/app/.env" environment file. in /var/www/app/vendor/symfony/dotenv/Dotenv.php:552
+Stack trace:
+#0 /var/www/app/vendor/symfony/dotenv/Dotenv.php(105): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 /var/www/app/vendor/symfony/dotenv/Dotenv.php(148): Symfony\Component\Dotenv\Dotenv->loadEnv('/var/www/app/.e...', 'APP_ENV', 'dev', Array, false)
+#2 /var/www/app/vendor/symfony/runtime/SymfonyRuntime.php(107): Symfony\Component\Dotenv\Dotenv->bootEnv('/var/www/app/.e...', 'dev', Array, false)
+#3 /var/www/app/vendor/autoload_runtime.php(16): Symfony\Component\Runtime\SymfonyRuntime->__construct(Array)
+#4 /var/www/app/bin/console(11): require_once('/var/www/app/ve...')
+#5 {main}
+  thrown in /var/www/app/vendor/symfony/dotenv/Dotenv.php on line 552
+[19-Feb-2023 08:16:23 Europe/Lisbon] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "/var/www/app/.env" environment file. in /var/www/app/vendor/symfony/dotenv/Dotenv.php:552
+Stack trace:
+#0 /var/www/app/vendor/symfony/dotenv/Dotenv.php(105): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 /var/www/app/vendor/symfony/dotenv/Dotenv.php(148): Symfony\Component\Dotenv\Dotenv->loadEnv('/var/www/app/.e...', 'APP_ENV', 'dev', Array, false)
+#2 /var/www/app/vendor/symfony/runtime/SymfonyRuntime.php(107): Symfony\Component\Dotenv\Dotenv->bootEnv('/var/www/app/.e...', 'dev', Array, false)
+#3 /var/www/app/vendor/autoload_runtime.php(16): Symfony\Component\Runtime\SymfonyRuntime->__construct(Array)
+#4 /var/www/app/bin/console(11): require_once('/var/www/app/ve...')
+#5 {main}
+  thrown in /var/www/app/vendor/symfony/dotenv/Dotenv.php on line 552
+[19-Feb-2023 08:19:12 Europe/Lisbon] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "/var/www/app/.env" environment file. in /var/www/app/vendor/symfony/dotenv/Dotenv.php:552
+Stack trace:
+#0 /var/www/app/vendor/symfony/dotenv/Dotenv.php(105): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 /var/www/app/vendor/symfony/dotenv/Dotenv.php(148): Symfony\Component\Dotenv\Dotenv->loadEnv('/var/www/app/.e...', 'APP_ENV', 'dev', Array, false)
+#2 /var/www/app/vendor/symfony/runtime/SymfonyRuntime.php(107): Symfony\Component\Dotenv\Dotenv->bootEnv('/var/www/app/.e...', 'dev', Array, false)
+#3 /var/www/app/vendor/autoload_runtime.php(16): Symfony\Component\Runtime\SymfonyRuntime->__construct(Array)
+#4 /var/www/app/bin/console(11): require_once('/var/www/app/ve...')
+#5 {main}
+  thrown in /var/www/app/vendor/symfony/dotenv/Dotenv.php on line 552
+[19-Feb-2023 08:20:33 Europe/Lisbon] 2023-02-19T08:20:33+00:00 [info] User Deprecated: The "Monolog\Logger" class is considered final. It may change without further notice as of its next major version. You should not extend it from "Symfony\Bridge\Monolog\Logger".
