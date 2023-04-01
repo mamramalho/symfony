@@ -27,7 +27,7 @@ docker-compose exec php sh
 3 - Change your .env mysql credentials on `app/.env`
 
 ```dotenv
-DATABASE_URL=mysql://user:password@127.0.0.1:3306/app
+DATABASE_URL="mysql://user:password@mysql:3306/app?serverVersion=8&charset=utf8mb4"
 ```
 
 ## Run the application
